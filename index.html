@@ -18,6 +18,60 @@
     <div class="wrapper">
 
         <header>
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col">
+                                <div class="alert alert" role="alert">
+                                    <h1 class="text-center text-danger">Cadastro de Usuario</h1>
+                                    <hr>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam </p>
+
+                                    <div class="form-group">
+
+                                        <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu nome">
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-5"> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu e-mail"></div>
+
+                                        <div class="col-2 "></div>
+                                        <div class="col-5"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha"></div>
+                                    </div>
+
+                                    <div class="form-group py-3">
+
+                                        <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu endereço">
+
+                                    </div>
+
+                                    <div class="text-right">
+                                        <input class="btn btn-primary" type="reset" value="Reset">
+                                        <input class="btn btn-primary" type="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <nav class="navbar navbar-expand-lg navbar-light fixed  ">
                 <a class="navbar-brand text-light " href="#">TECHMAX</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,27 +90,31 @@
                             <a class="nav-link dropdown-toggle text-light  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mais Produtos
               </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item  text-dark " href="#">Monitores</a>
-                                <a class="dropdown-item text-dark  " href="#">Teclados</a>
-                                <a class="dropdown-item  text-dark " href="#">Hdd's</a>
-                                <a class="dropdown-item text-dark  " href="#">Ssd's</a>
-                                <a class="dropdown-item  text-dark " href="#">Memorias ram</a>
-                                <a class="dropdown-item text-dark  " href="#">Processadores</a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item  text-light " href="#">Monitores</a>
+                                <a class="dropdown-item text-light  " href="#">Teclados</a>
+                                <a class="dropdown-item  text-light " href="#">Hdd's</a>
+                                <a class="dropdown-item text-light  " href="#">Ssd's</a>
+                                <a class="dropdown-item text-light " href="#">Memorias ram</a>
+                                <a class="dropdown-item text-light  " href="#">Processadores</a>
                             </div>
                         </li>
 
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Busque Aqui!" aria-label="Search">
-                        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
+                        <button type="button" class="btn btn-danger">Buscar</button>
                     </form>
+
+                    <button type="button" class="luu btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                      cadastre-se
+                    </button>
                 </div>
             </nav>
 
         </header>
 
-
+        <hr class="junio">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -80,14 +138,17 @@
         </div>
 
 
-
+        <hr class="junio">
         <div class="contender">
 
             <div class="container   ">
 
                 <div class="card-deck">
                     <div class="luizjj card my-3  " style="width: 18rem;  ">
+
+
                         <img src="public/img/66.png" class="card-img-top" alt="...">
+
                         <div class="card-body  ">
                             <h5 class=" text-light ">memoria ram 16gb</h5>
                             <p class=" text-light card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -181,7 +242,7 @@
 
         </div>
 
-
+        <hr class="junio">
         <footer class="container-fluid">
 
             <div class="col-12 text-center ">
