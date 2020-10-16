@@ -38,9 +38,10 @@ text-align: justify;
     position: fixed;
     width: 100%;
 
-
-
 }
+.navbar{
+    z-index: 2;
+  }
 
 /* scholbar  tamanho  */
 ::-webkit-scrollbar{
