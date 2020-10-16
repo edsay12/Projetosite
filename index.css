@@ -1,0 +1,64 @@
+html,body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+
+font-family: sans-serif;
+
+
+}
+
+header{
+
+width: 100%;
+height: 500px;
+background: url(public/img/back1.png) no-repeat ;
+background-size: 2000px  480px ;
+background-attachment: fixed;
+
+
+
+
+}
+
+.contende{
+width: 100%;
+margin: 4em auto;
+line-height: 30px;
+text-align: justify;
+
+}
+
+.fixed{
+
+    position: fixed;
+    width: 100%;
+
+
+
+}
+
+/* scholbar  tamanho  */
+::-webkit-scrollbar{
+
+    width: 8px;
+    
+    }
+    /* coloraçao parte do meio */
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#f5b402);
+    border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    
+        background: linear-gradient(transparent,#f7f303);
+    
+    }
+
+
+
+
